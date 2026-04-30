@@ -15,7 +15,7 @@ pre : "<b>3.1. </b>"
 * **Nghi Danh**: AI Engineer, Renova Clound.
 * **Phong Nguyen**: Senior Software Engineer, Sympli.
 * **Thinh Nguyen**: DevOps Engineer, FCAJ.
-<img src="../../images/event-1.jpg" alt="Speakers in FCAJ Community Day" style="max-height:850px" />
+<img src="../../../images/event-1.jpg" alt="Speakers in FCAJ Community Day" style="max-height:850px" />
 
 ### Nội dung chính
 * Sự kiện tập trung vào các xu hướng công nghệ cloud và AI hiện đại, bao gồm Platform Engineering, GenAIOps và xây dựng hệ thống production trên AWS.

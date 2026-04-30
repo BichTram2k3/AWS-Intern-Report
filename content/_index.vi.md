@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 09/03/2026 đến ngày 02/05/2026
 
-![Nguyễn Thị Bích Trâm](images/avatar.png?width=600px)
+![Nguyễn Thị Bích Trâm](../images/avatar.png?width=600px)
 
 ### Nội dung báo cáo
 
