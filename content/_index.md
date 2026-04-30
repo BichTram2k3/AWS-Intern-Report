@@ -26,7 +26,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 09/03/2026 to 02/05/2026
 
-![Tram Nguyen](/images/avatar.png?width=600px)
+![Tram Nguyen](images/avatar.png?width=600px)
 
 ### Report Content
 
