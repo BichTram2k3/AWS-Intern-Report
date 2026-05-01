@@ -113,8 +113,8 @@ The easiest way to upload source code is by using SCP (Secure Copy Protocol).
 ```scp -i aws-key.pem -r Classic-Groove ec2-user@13.211.255.184:/home/ec2-user/```
 
 - Explanation: 
-- + Classic-Groove: the project folder on the local machine 
-- + /home/ec2-user/: destination directory on the EC2 server 
+   + Classic-Groove: the project folder on the local machine 
+   + /home/ec2-user/: destination directory on the EC2 server 
 
 **Expected result:** The project source code is successfully transferred from the local machine to the EC2 instance.
 
@@ -138,37 +138,37 @@ Return to the EC2 instance via SSH and deploy the application to the web root di
 
 Create database → select **Full configuration**
 - Step 1: Select engine
-- + Engine options → select MySQL
+  + Engine options → select MySQL
 
 ![3-12](../../../images/4.3-Implementation/3-12.png)
 
-- + Version → Keep default (no change required)
+   + Version → Keep default (no change required)
 
 - Step 2: Template (select Free tier)
 
 ![3-13](../../../images/4.3-Implementation/3-13.png)
 
 - Step 3: DB Setting
-- + DB instance identifier → Enter: classic-groove-db
+   + DB instance identifier → Enter: classic-groove-db
 
 ![3-14](../../../images/4.3-Implementation/3-14.png)
 
-- + Master username → Enter: admin
-- + Passwork → Set manually (example: 12345678)
+   + Master username → Enter: admin
+   + Passwork → Set manually (example: 12345678)
 
 - Step 4: Instance config → Select: db.t3.micro
 
 - Step 5: Storage → Keep default: 20GB
 
 - Step 6: Connectivity
-- + Public access → Select Yes
-- + VPC security group → Select: **Create new**
-- + Security Group name → classic-groove-db-sg
+   + Public access → Select Yes
+   + VPC security group → Select: **Create new**
+   + Security Group name → classic-groove-db-sg
 
 ![3-15](../../../images/4.3-Implementation/3-15.png)
 
 - Step 7: Additional config
-- + Initial database name → Enter: classic_groove
+   + Initial database name → Enter: classic_groove
 
 ![3-16](../../../images/4.3-Implementation/3-16.png)
 

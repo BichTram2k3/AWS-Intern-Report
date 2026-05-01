@@ -141,37 +141,37 @@ Quay lại EC2 (SSH)
 - [**Phần 1: Tạo database (RDS - MySQL)**]
 Create database → chọn Full configuration
 - Bước 1: Chọn engine
-- + Engine options → Chọn MySQL
+   + Engine options → Chọn MySQL
 
 ![3-12](../../../../images/4.3-Implementation/3-12.png)
 
-- + Version → Giữ mặc định (không cần đổi)
+   + Version → Giữ mặc định (không cần đổi)
 
 - Bước 2: Template (Chọn Free tier)
 
 ![3-13](../../../../images/4.3-Implementation/3-13.png)
 
 - Bước 3: DB Setting
-- + DB instance identifier → Nhập: classic-groove-db
+   + DB instance identifier → Nhập: classic-groove-db
 
 ![3-14](../../../../images/4.3-Implementation/3-14.png)
 
-- + Master username → Nhập: admin
-- + Passwork → Tự đặt (ví dụ: 12345678)
+   + Master username → Nhập: admin
+   + Passwork → Tự đặt (ví dụ: 12345678)
 
 - Bước 4: Instance config → Chọn: db.t3.micro
 
 - Bước 5: Storage → Giữ nguyên: 20GB
 
 - Bước 6: Connectivity
-- + Public access → Chọn Yes
-- + VPC security → Chọn: Create new
-- + Tên Security Group → classic-groove-db-sg
+   + Public access → Chọn Yes
+   + VPC security → Chọn: Create new
+   + Tên Security Group → classic-groove-db-sg
 
 ![3-15](../../../../images/4.3-Implementation/3-15.png)
 
 - Bước 7: Additional config
-- + Initial database name → Nhập: classic_groove
+   + Initial database name → Nhập: classic_groove
 
 ![3-16](../../../../images/4.3-Implementation/3-16.png)
 
