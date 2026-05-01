@@ -206,7 +206,7 @@ Ví dụ: ```mysql -h classic-groove-db.czuaak8esyxf.ap-southeast-2.rds.amazonaw
 
 - → Nhập Password
 
-- [**Phần 4: Import database]
+- [**Phần 4: Import database**]
 Cách đưa DB tiwf máy lên RDS
 
 - Cách 1 (dùng phpMyAdmin)
