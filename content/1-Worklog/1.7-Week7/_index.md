@@ -46,4 +46,4 @@ pre : "<b>1.7. </b>"
 * Improved system architecture: 
   * Separated storage layer (S3) from compute (EC2)
   * Increased scalability and flexibility
-  * Reduced dependency on server local storag
+  * Reduced dependency on server local storageS
