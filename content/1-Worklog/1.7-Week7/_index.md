@@ -21,25 +21,29 @@ pre : "<b>1.7. </b>"
 |6|<ul style="margin:0"><li>Test file upload, display, and deletion</li><li>Debug upload errors (permission, size limit)</li><li>Optimize file handling performance</li></ul>|24/04/2026|24/04/2026||
 
 ### Acheievements
-* Acquired comprehensive knowledge of Amazon S3, including bucket management, object storage, and access control mechanisms.
-* Successfully performed S3 operations such as:
-  * Uploading and downloading files 
-  * Configuring public access 
-  * Using S3 URLs to serve static content (images) 
-* Understood Amazon RDS concepts: 
-  * Database instance creation 
-  * Endpoint usage for connection 
-  * Automated backup and scaling capabilities 
-* Compared cloud database (RDS) with traditional local MySQL: 
-  * Recognized advantages in scalability and availability 
-  * Understood managed service benefits 
-* Successfully set up a local development environment: 
-  * Installed Apache, MySQL, and PHP 
-  * Built and tested database-driven web application locally 
-* Gained basic knowledge of CloudWatch: 
-  * Monitored system performance metrics 
-  * Understood logging and alert mechanisms 
-* Designed a basic cloud system architecture integrating: 
-  * EC2 (Compute) 
-  * RDS (Database) 
-  * S3 (Storage)
+* Successfully created and configured an Amazon S3 bucket for storing application files. 
+* Configured access control and permissions: 
+  * Applied bucket policy to allow public read access for static files
+  * Managed IAM permissions for secure access
+  * Understood security implications of public access
+* Integrated S3 into the web application: 
+  * Installed and configured AWS SDK for PHP
+  * Connected application to S3 using credentials and region settings
+* Implemented file upload functionality: 
+  * Uploaded files directly from application to S3
+  * Generated and retrieved S3 object URLs
+  * Stored file URLs in database instead of local paths
+* Modified application logic: 
+  * Replaced local file handling with cloud-based storage
+  * Ensured images and files are loaded from S3 URLs
+* Tested full file workflow: 
+  * Upload file → Store URL → Display image
+  * Verified file accessibility via public URL
+* Identified and resolved common issues: 
+  * Permission errors due to incorrect bucket policy
+  * File upload size limitations
+  * Incorrect MIME type handling
+* Improved system architecture: 
+  * Separated storage layer (S3) from compute (EC2)
+  * Increased scalability and flexibility
+  * Reduced dependency on server local storag
